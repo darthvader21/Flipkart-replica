@@ -1,0 +1,321 @@
+body{
+  margin:0;
+   overflow-y: scroll;
+}
+.top{
+  background-color: #3273F4;
+  width: 100%;
+  height:127px;
+  /*position: fixed;*/
+}
+#top {
+  margin: 0;
+  float: right;
+}
+.top li{
+  list-style-type: none;
+  float: left;
+  margin-top: 5px;
+  display: inline-block;
+}
+.top a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.top i{
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-right: 5px;
+}
+.image{
+  height:38px;
+  width:146px;
+  margin-left: 75px;
+  margin-top: 5px;
+  position: absolute;
+}
+.input{
+  padding:10px;
+  width: 64%;
+ position: relative;
+ margin-left: 220px;
+ margin-top: 4px;
+ padding: 12px;
+ border-radius: 3px;
+ border:none;
+ color: gray;
+ outline: none;
+}
+.button{
+  padding:12px;
+  width:125px;
+  margin-left: -55px;
+  background-color: #2828C8;
+  color:white;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 0px 3px 3px #2828C8 ;
+  font-weight: bold;
+}
+#filter {
+  position: relative;
+  /*z-index: 1;*/
+  cursor: pointer;
+  left: -53px;
+  background-color:#ffe11b;
+  border: 1px solid #ffe11b;
+  border-radius: 0 2px 2px 0; 
+  padding-top: 9.4px;
+  padding-bottom: 12px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.hoover{
+  margin-top: 11px;
+  margin-left:145px;
+
+}
+.hoover ul{
+  float: left;
+}
+.hoover li{
+  list-style-type: none;
+  margin-top: -10px;
+  float: left;
+}
+.dropdown{
+  display: inline-block;
+  margin-left: 10px;
+}
+.drop{
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #f0f0f0;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.drop:hover {
+  color: #FFD700; 
+}
+.dropmenu{
+  display: none;
+  position: absolute;
+  left: 14.5vw;
+}
+.dropmenu a{
+  color:black;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  background-color: white;
+}
+.offer {
+  border-bottom: 1px solid;
+  border-color: #f0f0f0;
+}
+.dropmenu a:hover{
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropmenu{
+  display: block;
+  width: 72%;
+}
+.drop .fa-angle-up, .drop:hover  .fa-angle-down {
+    display: none;
+}
+.drop:hover .fa-angle-up {
+  color: #FFD700;
+    display: inherit;
+}
+.bar ul{
+  margin-top: 0;
+ float: left;
+ margin-left: 150px;
+ height: 16px;
+ margin-top: -5px;
+}
+.bar li{
+  list-style-type: none;
+  padding:2px;
+}
+.bar a{
+  text-decoration: none;
+  color: gray;
+  font-family: sans-serif;
+  font-size: 13px;
+  border-right: 1px solid #DCDCDC;
+}
+.blue{
+  background-color: #3273F4;
+  height:140px;
+  margin-left: 8px;
+  float: left;
+  padding:10px;
+}
+#img1,#img2,#img3,#img4,#img5{
+  float: left;
+  margin:5px;
+  padding:15px;
+  width: 10%;
+ }
+ #img img,#img1 img,#img2 img,#img3 img,#img4 img,#img5 img{
+  width: 100%;
+ }
+.blue p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+#img {
+  width: 30%;
+  float: left;
+}
+.back-image img{
+  width: 100%;
+  height: 60px;
+}
+.wrap {
+  background-image: url('../img/log.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 10px;
+  background-color: #DCDCDC;
+
+}
+.mobile {
+  float: left;
+}
+.mobile h4 {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 55px;
+  margin-left: 45px;
+  padding-right: 55px;
+  padding-bottom: 3px;
+}
+.mobile button {
+  color: white;
+  background-color: blue;
+  border: transparent;
+  border-radius: 3px;
+  padding: 12px;
+  margin-left: 65px;
+  width: 105px;
+  margin-top: 0;
+}
+.image-off {
+  text-align: justify;
+  float: left;
+  line-height: 5px;
+}
+.im,.im1,.im2,.im3,.im4,.im5,.im6 {
+  padding: 25px;
+}
+.im, .im2 {
+  width: 150px;
+  height: 200px;
+}
+.im1{
+  width: 250px;
+  height: 200px;
+}
+.im3 {
+  width: 250px;
+  height: 200px;
+}
+.image-off{
+  text-align: center;
+}
+.image-off p {
+  font-family: sans-serif;
+  color: green;
+}
+.image-off button {
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-right: 5px;
+}
+.wrap1 {
+  background-image: url('../img/log1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 10px;
+  background-color: #DCDCDC;
+}
+.w3-button {
+   background-color: hsla(0,0%,100%,.98);;
+   color:black;
+   border-radius: 5px 0  0 5px;
+   float: right;
+   outline: none;
+   margin-top: 80px;
+   padding: 16px; 
+   box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+   font-size: 41px;
+   border: none;
+}
+
+/*/*here am adding carousel styles and transitions*/
+/*.multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+// non-related styling:
+body{
+  background: #333;
+  color: #ddd;
+}
+h1{
+  color: white;
+  font-size: 2.25em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+}*/
